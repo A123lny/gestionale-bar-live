@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/gestionale-bar-live/sw.js', { scope: '/gestionale-bar-live/' })})}
